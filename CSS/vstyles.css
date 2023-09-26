@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+.img {
+    background: url('/IMAGES/2.jpg') no-repeat;
+    height: 135vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: block;
+}
+.wrapper {
+    width: auto;
+}
+.circle-icon {
+    background: gray;
+    padding: 30px;
+    border-radius: 50%;
+    font-size: 10px;
+    font-weight: 80;
+    text-align: center;
+}
+
+.center {
+    opacity: 0.7;
+    position: absolute;
+    top:76%;
+    left: 30%;
+    margin-left: 300px;
+    transform: translate(-50%, -50%);
+    background-color: #000;
+    background-size: cover;
+    text-align: center;
+    margin-top: -120px;
+    
+}
+.center .verified {
+    color: #000;
+    padding-top: 200px;
+}
+.center p {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: 30px; 
+}
+.center .btns {
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+.center .btns button{
+    height: 60px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 5px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 5px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease;
+    color: #000;
+    background-color: #e2f10e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 50px;
+}
+.center .btns button:hover{
+    background: #000;
+    color: #e2f10e;
+
+}
+.ussd {
+    position: relative;
+    transform: translate(-50%, -50%);
+    background-color: gray;
+    background-size: cover;
+    text-align: center;
+    margin-top: 95px;
+    margin-left: 350px;
+    vertical-align: middle;
+    width:600px;
+    font-size: 35px;
+    background-position: center;
+    color: #fff;
+    margin-right: -200px;
+    padding-top: 10px;
+    font-weight: 300;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ussd h3 span {
+    font-weight: 800;
+    color: #e2f10e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+@media only screen and (max-width: 600px) {
+    .wrapper {
+      width: 100%; 
+    }
+    .menu {
+        width: 200px;
+        position: relative;
+        transition: width 0.2s;
+        flex-shrink: 0;
+    } 
+}
+@media only screen and (min-width: 601px) and (max-width: 992px) and (orientation: landscape) and (orientation: portrait){
+    .wrapper {
+      width: 100%; 
+    }
+    .menu {
+        width: 200px;
+        position: relative;
+        transition: width 0.2s;
+        flex-shrink: 0;
+    } 
+}

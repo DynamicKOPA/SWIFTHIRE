@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+.img {
+    background: url('/IMAGES/3.jpg') no-repeat;
+    height: 150vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: block;
+}
+.wrapper {
+    width: auto;
+}
+.circle-icon {
+    background: #053807;
+    padding: 30px;
+    border-radius: 50%;
+    font-size: 10px;
+    font-weight: 80;
+    text-align: center;
+}
+
+.center {
+    align-items: center;
+    box-sizing: border-box;
+    opacity: 0.8;
+    position: absolute;
+    top:76%;
+    left: 30%;
+    margin-left: 300px;
+    transform: translate(-50%, -25%);
+    background-color: #686565;
+    background-size: cover;
+    text-align: center;
+    margin-top: -250px;
+    vertical-align: middle;
+}
+.center .verified {
+    color: #053807;
+    padding-top: 150px;
+}
+.center p {
+    color: #071d01;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: 30px; 
+}
+.center .btns {
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+.center .btns button{
+    height: 60px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 5px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 5px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease;
+    color: #fff;
+    background-color: #053807;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 50px;
+}
+.center .btns button:hover{
+    background: #e2f10e;
+    color: #053807;
+
+}
+.ussd {
+    position: relative;
+    transform: translate(-50%, -50%);
+    background-color: #053807;
+    background-size: cover;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 350px;
+    vertical-align: middle;
+    width:600px;
+    font-size: 40px;
+    background-position: center;
+    color: #fff;
+    margin-right: -200px;
+    padding-top: 5px;
+    font-weight: 300;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ussd h3 span {
+    font-weight: 800;
+    color: #e2f10e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+@media only screen and (max-width: 600px) {
+    .wrapper {
+      width: 100%; 
+    }
+    .menu {
+        width: 200px;
+        position: relative;
+        transition: width 0.2s;
+        flex-shrink: 0;
+    } 
+}
+@media only screen and (min-width: 601px) and (max-width: 992px) and (orientation: landscape) and (orientation: portrait){
+    .wrapper {
+      width: 100%; 
+    }
+    .menu {
+        width: 200px;
+        position: relative;
+        transition: width 0.2s;
+        flex-shrink: 0;
+    } 
+}

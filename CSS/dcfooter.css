@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+footer{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    padding: 0;
+}
+.footer {
+    font-family: "Montserrat", sans-serif;
+    background-color: #053807;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bolder 20px sans-serif;
+    align-content: normal;
+}
+.footer-left{
+    display: flex;
+}
+.footer-left a img{
+    padding-top: 10px;
+}
+.footer-left h1{
+    padding-top: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    font: normal 36px 'cookie', cursive;
+    margin: 0;
+    font-size: 50px;
+}
+.footer-left h1 span{
+    color: #e2f10e;
+}
+.footer .footer-center {
+    text-align: center;
+    display: block;
+    margin:  10px 15px;
+    margin-top: -70px;
+}
+.footer .footer-center > a {
+    display: flex;
+    padding-right: 150px;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    margin-top: 10px;
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+.footer-center .footer-center2 > a {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 25px auto 0;
+}
+.footer-center a h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+.footer .footer-center2 {
+    text-align: center;
+    display: block;
+    margin:  20px 35px;
+    margin-top: -100px;
+    padding-left: 250px;
+}
+.footer .footer-center2 > a {
+    display: flex;
+    padding-right: 150px;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    margin-top: 10px;
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+.footer .footer-center2 {
+    margin-top: -125px;
+    margin-left: 300px;
+}
+.footer-center2 a h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+.footer .footer-right {
+    width: 20%;
+    margin-top: -180px;
+}
+.footer .footer-right {
+  color: #fff; 
+  line-height: 20px;
+  display: block; 
+  float: right;
+}
+.footer p {
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+@media (max-width: 880px) {
+ 
+	.footer{
+		font: bold 14px sans-serif;
+	
+	}
+ 
+	.footer .footer-left,
+	.footer .footer-center,
+	.footer .footer-right{
+		display: block;
+		width: 100%;
+		font-family: "Montserrat", sans-serif;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+ 
+	.footer .footer-center i{
+		margin-left: 0;
+	}
+	.main {
+		line-height: normal;
+		font-size: auto;
+	}
+ 
+}
